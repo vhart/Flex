@@ -7,12 +7,20 @@
 //
 
 import UIKit
+import CoreData
 
 class ViewController: UIViewController {
+    var context =  AppDelegate().managedObjectContext
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+
+        let temp = Set.init(context: context)
+        temp.setValue(NSNumber(int: 5), forKey:"reps")
+        print(temp.reps!)
+
+        temp.save()
     }
 
     override func didReceiveMemoryWarning() {

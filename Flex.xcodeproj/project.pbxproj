@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		C77D8F061C8940AE005F61C1 /* Date+StringComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77D8F051C8940AE005F61C1 /* Date+StringComponents.swift */; };
+		C77D8F0E1C8BFAA0005F61C1 /* Set+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77D8F081C8BFAA0005F61C1 /* Set+CoreDataProperties.swift */; };
+		C77D8F0F1C8BFAA0005F61C1 /* Set.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77D8F091C8BFAA0005F61C1 /* Set.swift */; };
+		C77D8F101C8BFAA0005F61C1 /* Exercise+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77D8F0A1C8BFAA0005F61C1 /* Exercise+CoreDataProperties.swift */; };
+		C77D8F111C8BFAA0005F61C1 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77D8F0B1C8BFAA0005F61C1 /* Exercise.swift */; };
+		C77D8F121C8BFAA0005F61C1 /* Workout+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77D8F0C1C8BFAA0005F61C1 /* Workout+CoreDataProperties.swift */; };
+		C77D8F131C8BFAA0005F61C1 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77D8F0D1C8BFAA0005F61C1 /* Workout.swift */; };
 		C7DD0B631C76B46D00361D17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DD0B621C76B46D00361D17 /* AppDelegate.swift */; };
 		C7DD0B651C76B46D00361D17 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DD0B641C76B46D00361D17 /* ViewController.swift */; };
 		C7DD0B681C76B46D00361D17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7DD0B661C76B46D00361D17 /* Main.storyboard */; };
@@ -16,12 +22,6 @@
 		C7DD0B701C76B46D00361D17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7DD0B6E1C76B46D00361D17 /* LaunchScreen.storyboard */; };
 		C7DD0B7B1C76B46D00361D17 /* FlexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DD0B7A1C76B46D00361D17 /* FlexTests.swift */; };
 		C7DD0B861C76B46E00361D17 /* FlexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DD0B851C76B46E00361D17 /* FlexUITests.swift */; };
-		C7DD0B9C1C79673B00361D17 /* Workout+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DD0B961C79673900361D17 /* Workout+CoreDataProperties.swift */; };
-		C7DD0B9D1C79673C00361D17 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DD0B971C79673A00361D17 /* Workout.swift */; };
-		C7DD0B9E1C79673C00361D17 /* Exercise+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DD0B981C79673A00361D17 /* Exercise+CoreDataProperties.swift */; };
-		C7DD0B9F1C79673C00361D17 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DD0B991C79673A00361D17 /* Exercise.swift */; };
-		C7DD0BA01C79673C00361D17 /* Set+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DD0B9A1C79673A00361D17 /* Set+CoreDataProperties.swift */; };
-		C7DD0BA11C79673C00361D17 /* Set.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DD0B9B1C79673A00361D17 /* Set.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +43,12 @@
 
 /* Begin PBXFileReference section */
 		C77D8F051C8940AE005F61C1 /* Date+StringComponents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+StringComponents.swift"; sourceTree = "<group>"; };
+		C77D8F081C8BFAA0005F61C1 /* Set+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Set+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		C77D8F091C8BFAA0005F61C1 /* Set.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Set.swift; sourceTree = "<group>"; };
+		C77D8F0A1C8BFAA0005F61C1 /* Exercise+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Exercise+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		C77D8F0B1C8BFAA0005F61C1 /* Exercise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		C77D8F0C1C8BFAA0005F61C1 /* Workout+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Workout+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		C77D8F0D1C8BFAA0005F61C1 /* Workout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
 		C7DD0B5F1C76B46D00361D17 /* Flex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7DD0B621C76B46D00361D17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C7DD0B641C76B46D00361D17 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,12 +63,6 @@
 		C7DD0B811C76B46D00361D17 /* FlexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlexUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7DD0B851C76B46E00361D17 /* FlexUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexUITests.swift; sourceTree = "<group>"; };
 		C7DD0B871C76B46E00361D17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C7DD0B961C79673900361D17 /* Workout+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Workout+CoreDataProperties.swift"; path = "../Workout+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		C7DD0B971C79673A00361D17 /* Workout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Workout.swift; path = ../Workout.swift; sourceTree = "<group>"; };
-		C7DD0B981C79673A00361D17 /* Exercise+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Exercise+CoreDataProperties.swift"; path = "../Exercise+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		C7DD0B991C79673A00361D17 /* Exercise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Exercise.swift; path = ../Exercise.swift; sourceTree = "<group>"; };
-		C7DD0B9A1C79673A00361D17 /* Set+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Set+CoreDataProperties.swift"; path = "../Set+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		C7DD0B9B1C79673A00361D17 /* Set.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Set.swift; path = ../Set.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,12 +93,12 @@
 		C77D8F001C86B014005F61C1 /* Core Data Objects */ = {
 			isa = PBXGroup;
 			children = (
-				C7DD0B961C79673900361D17 /* Workout+CoreDataProperties.swift */,
-				C7DD0B971C79673A00361D17 /* Workout.swift */,
-				C7DD0B981C79673A00361D17 /* Exercise+CoreDataProperties.swift */,
-				C7DD0B991C79673A00361D17 /* Exercise.swift */,
-				C7DD0B9A1C79673A00361D17 /* Set+CoreDataProperties.swift */,
-				C7DD0B9B1C79673A00361D17 /* Set.swift */,
+				C77D8F081C8BFAA0005F61C1 /* Set+CoreDataProperties.swift */,
+				C77D8F091C8BFAA0005F61C1 /* Set.swift */,
+				C77D8F0A1C8BFAA0005F61C1 /* Exercise+CoreDataProperties.swift */,
+				C77D8F0B1C8BFAA0005F61C1 /* Exercise.swift */,
+				C77D8F0C1C8BFAA0005F61C1 /* Workout+CoreDataProperties.swift */,
+				C77D8F0D1C8BFAA0005F61C1 /* Workout.swift */,
 			);
 			name = "Core Data Objects";
 			sourceTree = "<group>";
@@ -116,6 +116,13 @@
 				C77D8F051C8940AE005F61C1 /* Date+StringComponents.swift */,
 			);
 			name = Extensions;
+			sourceTree = "<group>";
+		};
+		C77D8F071C89475D005F61C1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 		C7DD0B561C76B46D00361D17 = {
@@ -141,6 +148,7 @@
 		C7DD0B611C76B46D00361D17 /* Flex */ = {
 			isa = PBXGroup;
 			children = (
+				C77D8F071C89475D005F61C1 /* Controllers */,
 				C77D8F001C86B014005F61C1 /* Core Data Objects */,
 				C77D8F011C86B055005F61C1 /* Enums */,
 				C77D8F021C86B075005F61C1 /* Extensions */,
@@ -307,13 +315,13 @@
 				C7DD0B651C76B46D00361D17 /* ViewController.swift in Sources */,
 				C7DD0B631C76B46D00361D17 /* AppDelegate.swift in Sources */,
 				C77D8F061C8940AE005F61C1 /* Date+StringComponents.swift in Sources */,
-				C7DD0B9C1C79673B00361D17 /* Workout+CoreDataProperties.swift in Sources */,
-				C7DD0B9D1C79673C00361D17 /* Workout.swift in Sources */,
+				C77D8F131C8BFAA0005F61C1 /* Workout.swift in Sources */,
+				C77D8F0E1C8BFAA0005F61C1 /* Set+CoreDataProperties.swift in Sources */,
+				C77D8F111C8BFAA0005F61C1 /* Exercise.swift in Sources */,
+				C77D8F121C8BFAA0005F61C1 /* Workout+CoreDataProperties.swift in Sources */,
 				C7DD0B6B1C76B46D00361D17 /* Flex.xcdatamodeld in Sources */,
-				C7DD0B9F1C79673C00361D17 /* Exercise.swift in Sources */,
-				C7DD0BA01C79673C00361D17 /* Set+CoreDataProperties.swift in Sources */,
-				C7DD0B9E1C79673C00361D17 /* Exercise+CoreDataProperties.swift in Sources */,
-				C7DD0BA11C79673C00361D17 /* Set.swift in Sources */,
+				C77D8F0F1C8BFAA0005F61C1 /* Set.swift in Sources */,
+				C77D8F101C8BFAA0005F61C1 /* Exercise+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
