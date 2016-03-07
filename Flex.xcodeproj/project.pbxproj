@@ -14,6 +14,7 @@
 		C77D8F111C8BFAA0005F61C1 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77D8F0B1C8BFAA0005F61C1 /* Exercise.swift */; };
 		C77D8F121C8BFAA0005F61C1 /* Workout+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77D8F0C1C8BFAA0005F61C1 /* Workout+CoreDataProperties.swift */; };
 		C77D8F131C8BFAA0005F61C1 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77D8F0D1C8BFAA0005F61C1 /* Workout.swift */; };
+		C77D8F151C8C89D3005F61C1 /* NSManagedObjectContext+Updating.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77D8F141C8C89D3005F61C1 /* NSManagedObjectContext+Updating.swift */; };
 		C7DD0B631C76B46D00361D17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DD0B621C76B46D00361D17 /* AppDelegate.swift */; };
 		C7DD0B651C76B46D00361D17 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DD0B641C76B46D00361D17 /* ViewController.swift */; };
 		C7DD0B681C76B46D00361D17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7DD0B661C76B46D00361D17 /* Main.storyboard */; };
@@ -49,6 +50,7 @@
 		C77D8F0B1C8BFAA0005F61C1 /* Exercise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
 		C77D8F0C1C8BFAA0005F61C1 /* Workout+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Workout+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		C77D8F0D1C8BFAA0005F61C1 /* Workout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		C77D8F141C8C89D3005F61C1 /* NSManagedObjectContext+Updating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSManagedObjectContext+Updating.swift"; sourceTree = "<group>"; };
 		C7DD0B5F1C76B46D00361D17 /* Flex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7DD0B621C76B46D00361D17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C7DD0B641C76B46D00361D17 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				C77D8F051C8940AE005F61C1 /* Date+StringComponents.swift */,
+				C77D8F141C8C89D3005F61C1 /* NSManagedObjectContext+Updating.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -316,6 +319,7 @@
 				C7DD0B631C76B46D00361D17 /* AppDelegate.swift in Sources */,
 				C77D8F061C8940AE005F61C1 /* Date+StringComponents.swift in Sources */,
 				C77D8F131C8BFAA0005F61C1 /* Workout.swift in Sources */,
+				C77D8F151C8C89D3005F61C1 /* NSManagedObjectContext+Updating.swift in Sources */,
 				C77D8F0E1C8BFAA0005F61C1 /* Set+CoreDataProperties.swift in Sources */,
 				C77D8F111C8BFAA0005F61C1 /* Exercise.swift in Sources */,
 				C77D8F121C8BFAA0005F61C1 /* Workout+CoreDataProperties.swift in Sources */,
