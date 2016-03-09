@@ -22,7 +22,7 @@ class Exercise: NSManagedObject {
         do {
             try self.managedObjectContext?.save()
         }   catch {
-            print("\(error)")
+            fatalError("\(error)")
         }
     }
 
