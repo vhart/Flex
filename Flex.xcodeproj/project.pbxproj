@@ -10,11 +10,11 @@
 		C77D8F061C8940AE005F61C1 /* Date+StringComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77D8F051C8940AE005F61C1 /* Date+StringComponents.swift */; };
 		C77D8F0E1C8BFAA0005F61C1 /* Set+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77D8F081C8BFAA0005F61C1 /* Set+CoreDataProperties.swift */; };
 		C77D8F0F1C8BFAA0005F61C1 /* Set.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77D8F091C8BFAA0005F61C1 /* Set.swift */; };
-		C77D8F101C8BFAA0005F61C1 /* Exercise+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77D8F0A1C8BFAA0005F61C1 /* Exercise+CoreDataProperties.swift */; };
 		C77D8F111C8BFAA0005F61C1 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77D8F0B1C8BFAA0005F61C1 /* Exercise.swift */; };
 		C77D8F121C8BFAA0005F61C1 /* Workout+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77D8F0C1C8BFAA0005F61C1 /* Workout+CoreDataProperties.swift */; };
 		C77D8F131C8BFAA0005F61C1 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77D8F0D1C8BFAA0005F61C1 /* Workout.swift */; };
 		C77D8F151C8C89D3005F61C1 /* NSManagedObjectContext+Updating.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77D8F141C8C89D3005F61C1 /* NSManagedObjectContext+Updating.swift */; };
+		C7827EFA1C9F6600003FF2C3 /* Exercise+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7827EF91C9F6600003FF2C3 /* Exercise+CoreDataProperties.swift */; };
 		C7DD0B631C76B46D00361D17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DD0B621C76B46D00361D17 /* AppDelegate.swift */; };
 		C7DD0B651C76B46D00361D17 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DD0B641C76B46D00361D17 /* ViewController.swift */; };
 		C7DD0B681C76B46D00361D17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7DD0B661C76B46D00361D17 /* Main.storyboard */; };
@@ -23,6 +23,8 @@
 		C7DD0B701C76B46D00361D17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7DD0B6E1C76B46D00361D17 /* LaunchScreen.storyboard */; };
 		C7DD0B7B1C76B46D00361D17 /* FlexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DD0B7A1C76B46D00361D17 /* FlexTests.swift */; };
 		C7DD0B861C76B46E00361D17 /* FlexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DD0B851C76B46E00361D17 /* FlexUITests.swift */; };
+		C7F723F61C9BAA5E007BB42E /* WorkoutHistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F723F51C9BAA5E007BB42E /* WorkoutHistoryTableViewController.swift */; };
+		C7F723F91C9BABEB007BB42E /* NSFetched.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F723F81C9BABEB007BB42E /* NSFetched.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,11 +48,11 @@
 		C77D8F051C8940AE005F61C1 /* Date+StringComponents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+StringComponents.swift"; sourceTree = "<group>"; };
 		C77D8F081C8BFAA0005F61C1 /* Set+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Set+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		C77D8F091C8BFAA0005F61C1 /* Set.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Set.swift; sourceTree = "<group>"; };
-		C77D8F0A1C8BFAA0005F61C1 /* Exercise+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Exercise+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		C77D8F0B1C8BFAA0005F61C1 /* Exercise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
 		C77D8F0C1C8BFAA0005F61C1 /* Workout+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Workout+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		C77D8F0D1C8BFAA0005F61C1 /* Workout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
 		C77D8F141C8C89D3005F61C1 /* NSManagedObjectContext+Updating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSManagedObjectContext+Updating.swift"; sourceTree = "<group>"; };
+		C7827EF91C9F6600003FF2C3 /* Exercise+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Exercise+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		C7DD0B5F1C76B46D00361D17 /* Flex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7DD0B621C76B46D00361D17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C7DD0B641C76B46D00361D17 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -65,6 +67,8 @@
 		C7DD0B811C76B46D00361D17 /* FlexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlexUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7DD0B851C76B46E00361D17 /* FlexUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexUITests.swift; sourceTree = "<group>"; };
 		C7DD0B871C76B46E00361D17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7F723F51C9BAA5E007BB42E /* WorkoutHistoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutHistoryTableViewController.swift; sourceTree = "<group>"; };
+		C7F723F81C9BABEB007BB42E /* NSFetched.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSFetched.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +101,7 @@
 			children = (
 				C77D8F081C8BFAA0005F61C1 /* Set+CoreDataProperties.swift */,
 				C77D8F091C8BFAA0005F61C1 /* Set.swift */,
-				C77D8F0A1C8BFAA0005F61C1 /* Exercise+CoreDataProperties.swift */,
+				C7827EF91C9F6600003FF2C3 /* Exercise+CoreDataProperties.swift */,
 				C77D8F0B1C8BFAA0005F61C1 /* Exercise.swift */,
 				C77D8F0C1C8BFAA0005F61C1 /* Workout+CoreDataProperties.swift */,
 				C77D8F0D1C8BFAA0005F61C1 /* Workout.swift */,
@@ -124,6 +128,8 @@
 		C77D8F071C89475D005F61C1 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				C7DD0B641C76B46D00361D17 /* ViewController.swift */,
+				C7F723F51C9BAA5E007BB42E /* WorkoutHistoryTableViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -155,8 +161,8 @@
 				C77D8F001C86B014005F61C1 /* Core Data Objects */,
 				C77D8F011C86B055005F61C1 /* Enums */,
 				C77D8F021C86B075005F61C1 /* Extensions */,
+				C7F723F71C9BABC1007BB42E /* Model */,
 				C7DD0B621C76B46D00361D17 /* AppDelegate.swift */,
-				C7DD0B641C76B46D00361D17 /* ViewController.swift */,
 				C7DD0B661C76B46D00361D17 /* Main.storyboard */,
 				C7DD0B6C1C76B46D00361D17 /* Assets.xcassets */,
 				C7DD0B6E1C76B46D00361D17 /* LaunchScreen.storyboard */,
@@ -182,6 +188,14 @@
 				C7DD0B871C76B46E00361D17 /* Info.plist */,
 			);
 			path = FlexUITests;
+			sourceTree = "<group>";
+		};
+		C7F723F71C9BABC1007BB42E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C7F723F81C9BABEB007BB42E /* NSFetched.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -321,11 +335,13 @@
 				C77D8F131C8BFAA0005F61C1 /* Workout.swift in Sources */,
 				C77D8F151C8C89D3005F61C1 /* NSManagedObjectContext+Updating.swift in Sources */,
 				C77D8F0E1C8BFAA0005F61C1 /* Set+CoreDataProperties.swift in Sources */,
+				C7F723F61C9BAA5E007BB42E /* WorkoutHistoryTableViewController.swift in Sources */,
 				C77D8F111C8BFAA0005F61C1 /* Exercise.swift in Sources */,
 				C77D8F121C8BFAA0005F61C1 /* Workout+CoreDataProperties.swift in Sources */,
+				C7827EFA1C9F6600003FF2C3 /* Exercise+CoreDataProperties.swift in Sources */,
 				C7DD0B6B1C76B46D00361D17 /* Flex.xcdatamodeld in Sources */,
+				C7F723F91C9BABEB007BB42E /* NSFetched.swift in Sources */,
 				C77D8F0F1C8BFAA0005F61C1 /* Set.swift in Sources */,
-				C77D8F101C8BFAA0005F61C1 /* Exercise+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

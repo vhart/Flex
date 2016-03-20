@@ -3,6 +3,8 @@
     <entity name="Exercise" representedClassName=".Exercise" syncable="YES">
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="notes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="repRangeMax" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="repRangeMin" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
         <relationship name="sets" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="Set" inverseName="exercise" inverseEntity="Set" syncable="YES"/>
         <relationship name="workout" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Workout" inverseName="exercises" inverseEntity="Workout" syncable="YES"/>
     </entity>
@@ -18,7 +20,7 @@
         <relationship name="exercises" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="Exercise" inverseName="workout" inverseEntity="Exercise" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Exercise" positionX="-45" positionY="-144" width="128" height="105"/>
+        <element name="Exercise" positionX="-45" positionY="-144" width="128" height="135"/>
         <element name="Set" positionX="-83" positionY="-9" width="128" height="103"/>
         <element name="Workout" positionX="-90" positionY="-322" width="128" height="88"/>
     </elements>
