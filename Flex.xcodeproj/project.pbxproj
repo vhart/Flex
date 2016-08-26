@@ -7,13 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7DE2A0D337B01F77F4A9D171 /* Pods_Flex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33E6236215B952620001734D /* Pods_Flex.framework */; };
 		C77D8F061C8940AE005F61C1 /* Date+StringComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77D8F051C8940AE005F61C1 /* Date+StringComponents.swift */; };
-		C77D8F0E1C8BFAA0005F61C1 /* Set+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77D8F081C8BFAA0005F61C1 /* Set+CoreDataProperties.swift */; };
-		C77D8F0F1C8BFAA0005F61C1 /* Set.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77D8F091C8BFAA0005F61C1 /* Set.swift */; };
-		C77D8F101C8BFAA0005F61C1 /* Exercise+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77D8F0A1C8BFAA0005F61C1 /* Exercise+CoreDataProperties.swift */; };
-		C77D8F111C8BFAA0005F61C1 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77D8F0B1C8BFAA0005F61C1 /* Exercise.swift */; };
-		C77D8F121C8BFAA0005F61C1 /* Workout+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77D8F0C1C8BFAA0005F61C1 /* Workout+CoreDataProperties.swift */; };
-		C77D8F131C8BFAA0005F61C1 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77D8F0D1C8BFAA0005F61C1 /* Workout.swift */; };
 		C7DD0B631C76B46D00361D17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DD0B621C76B46D00361D17 /* AppDelegate.swift */; };
 		C7DD0B651C76B46D00361D17 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DD0B641C76B46D00361D17 /* ViewController.swift */; };
 		C7DD0B681C76B46D00361D17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7DD0B661C76B46D00361D17 /* Main.storyboard */; };
@@ -22,6 +17,16 @@
 		C7DD0B701C76B46D00361D17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7DD0B6E1C76B46D00361D17 /* LaunchScreen.storyboard */; };
 		C7DD0B7B1C76B46D00361D17 /* FlexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DD0B7A1C76B46D00361D17 /* FlexTests.swift */; };
 		C7DD0B861C76B46E00361D17 /* FlexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DD0B851C76B46E00361D17 /* FlexUITests.swift */; };
+		D51E0A771D5C44F8008C4FDF /* WorkoutModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51E0A761D5C44F8008C4FDF /* WorkoutModel.swift */; };
+		D51E0A791D5C45D1008C4FDF /* ExerciseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51E0A781D5C45D1008C4FDF /* ExerciseModel.swift */; };
+		D51E0A7B1D5C45ED008C4FDF /* LiftingSetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51E0A7A1D5C45ED008C4FDF /* LiftingSetModel.swift */; };
+		D51E0A7D1D5C4612008C4FDF /* CardioSetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51E0A7C1D5C4612008C4FDF /* CardioSetModel.swift */; };
+		D54652031D5FD5BA00C56922 /* WorkoutTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54652021D5FD5BA00C56922 /* WorkoutTemplate.swift */; };
+		D54652061D612EEC00C56922 /* PlaceHolderShiftingTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54652051D612EEC00C56922 /* PlaceHolderShiftingTextFieldView.swift */; };
+		D5930CDE1D642D63007C8414 /* WorkoutStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5930CDD1D642D63007C8414 /* WorkoutStore.swift */; };
+		D5972C3E1D6BB2A0009A3514 /* WorkoutSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5972C3D1D6BB2A0009A3514 /* WorkoutSnapshot.swift */; };
+		D5972C401D6C0897009A3514 /* RealmExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5972C3F1D6C0897009A3514 /* RealmExtension.swift */; };
+		F38B4CBC153DBCE347A313A3 /* Pods_FlexTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0748228B6F7C1E9657DB883D /* Pods_FlexTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,13 +47,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0748228B6F7C1E9657DB883D /* Pods_FlexTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlexTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A6257FB7FA664A1F4612748 /* Pods-Flex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flex.release.xcconfig"; path = "Pods/Target Support Files/Pods-Flex/Pods-Flex.release.xcconfig"; sourceTree = "<group>"; };
+		335B478606C19E474C0F34B3 /* Pods-FlexTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlexTests/Pods-FlexTests.debug.xcconfig"; sourceTree = "<group>"; };
+		33E6236215B952620001734D /* Pods_Flex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58E4A28092EF882D7236CC78 /* Pods-Flex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flex.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Flex/Pods-Flex.debug.xcconfig"; sourceTree = "<group>"; };
 		C77D8F051C8940AE005F61C1 /* Date+StringComponents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+StringComponents.swift"; sourceTree = "<group>"; };
-		C77D8F081C8BFAA0005F61C1 /* Set+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Set+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		C77D8F091C8BFAA0005F61C1 /* Set.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Set.swift; sourceTree = "<group>"; };
-		C77D8F0A1C8BFAA0005F61C1 /* Exercise+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Exercise+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		C77D8F0B1C8BFAA0005F61C1 /* Exercise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
-		C77D8F0C1C8BFAA0005F61C1 /* Workout+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Workout+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		C77D8F0D1C8BFAA0005F61C1 /* Workout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
 		C7DD0B5F1C76B46D00361D17 /* Flex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7DD0B621C76B46D00361D17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C7DD0B641C76B46D00361D17 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +67,16 @@
 		C7DD0B811C76B46D00361D17 /* FlexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlexUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7DD0B851C76B46E00361D17 /* FlexUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexUITests.swift; sourceTree = "<group>"; };
 		C7DD0B871C76B46E00361D17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0135D2CAFED3495E5D4D00A /* Pods-FlexTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlexTests/Pods-FlexTests.release.xcconfig"; sourceTree = "<group>"; };
+		D51E0A761D5C44F8008C4FDF /* WorkoutModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutModel.swift; sourceTree = "<group>"; };
+		D51E0A781D5C45D1008C4FDF /* ExerciseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseModel.swift; sourceTree = "<group>"; };
+		D51E0A7A1D5C45ED008C4FDF /* LiftingSetModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiftingSetModel.swift; sourceTree = "<group>"; };
+		D51E0A7C1D5C4612008C4FDF /* CardioSetModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardioSetModel.swift; sourceTree = "<group>"; };
+		D54652021D5FD5BA00C56922 /* WorkoutTemplate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutTemplate.swift; sourceTree = "<group>"; };
+		D54652051D612EEC00C56922 /* PlaceHolderShiftingTextFieldView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceHolderShiftingTextFieldView.swift; sourceTree = "<group>"; };
+		D5930CDD1D642D63007C8414 /* WorkoutStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutStore.swift; sourceTree = "<group>"; };
+		D5972C3D1D6BB2A0009A3514 /* WorkoutSnapshot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutSnapshot.swift; sourceTree = "<group>"; };
+		D5972C3F1D6C0897009A3514 /* RealmExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DE2A0D337B01F77F4A9D171 /* Pods_Flex.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F38B4CBC153DBCE347A313A3 /* Pods_FlexTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,17 +106,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C77D8F001C86B014005F61C1 /* Core Data Objects */ = {
+		3B9485A2E13347F0BE1DAA06 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C77D8F081C8BFAA0005F61C1 /* Set+CoreDataProperties.swift */,
-				C77D8F091C8BFAA0005F61C1 /* Set.swift */,
-				C77D8F0A1C8BFAA0005F61C1 /* Exercise+CoreDataProperties.swift */,
-				C77D8F0B1C8BFAA0005F61C1 /* Exercise.swift */,
-				C77D8F0C1C8BFAA0005F61C1 /* Workout+CoreDataProperties.swift */,
-				C77D8F0D1C8BFAA0005F61C1 /* Workout.swift */,
+				33E6236215B952620001734D /* Pods_Flex.framework */,
+				0748228B6F7C1E9657DB883D /* Pods_FlexTests.framework */,
 			);
-			name = "Core Data Objects";
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		51151CBBCF2F0EEE0B5557E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58E4A28092EF882D7236CC78 /* Pods-Flex.debug.xcconfig */,
+				1A6257FB7FA664A1F4612748 /* Pods-Flex.release.xcconfig */,
+				335B478606C19E474C0F34B3 /* Pods-FlexTests.debug.xcconfig */,
+				D0135D2CAFED3495E5D4D00A /* Pods-FlexTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C77D8F001C86B014005F61C1 /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				D51E0A761D5C44F8008C4FDF /* WorkoutModel.swift */,
+				D54652021D5FD5BA00C56922 /* WorkoutTemplate.swift */,
+				D51E0A781D5C45D1008C4FDF /* ExerciseModel.swift */,
+				D51E0A7A1D5C45ED008C4FDF /* LiftingSetModel.swift */,
+				D51E0A7C1D5C4612008C4FDF /* CardioSetModel.swift */,
+				D5930CDD1D642D63007C8414 /* WorkoutStore.swift */,
+				D5972C3D1D6BB2A0009A3514 /* WorkoutSnapshot.swift */,
+				D5972C3F1D6C0897009A3514 /* RealmExtension.swift */,
+			);
+			path = Realm;
 			sourceTree = "<group>";
 		};
 		C77D8F011C86B055005F61C1 /* Enums */ = {
@@ -132,6 +170,8 @@
 				C7DD0B791C76B46D00361D17 /* FlexTests */,
 				C7DD0B841C76B46E00361D17 /* FlexUITests */,
 				C7DD0B601C76B46D00361D17 /* Products */,
+				51151CBBCF2F0EEE0B5557E7 /* Pods */,
+				3B9485A2E13347F0BE1DAA06 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -148,8 +188,9 @@
 		C7DD0B611C76B46D00361D17 /* Flex */ = {
 			isa = PBXGroup;
 			children = (
+				D54652041D612E1400C56922 /* UI */,
 				C77D8F071C89475D005F61C1 /* Controllers */,
-				C77D8F001C86B014005F61C1 /* Core Data Objects */,
+				C77D8F001C86B014005F61C1 /* Realm */,
 				C77D8F011C86B055005F61C1 /* Enums */,
 				C77D8F021C86B075005F61C1 /* Extensions */,
 				C7DD0B621C76B46D00361D17 /* AppDelegate.swift */,
@@ -181,6 +222,14 @@
 			path = FlexUITests;
 			sourceTree = "<group>";
 		};
+		D54652041D612E1400C56922 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				D54652051D612EEC00C56922 /* PlaceHolderShiftingTextFieldView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -188,9 +237,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C7DD0B8A1C76B46E00361D17 /* Build configuration list for PBXNativeTarget "Flex" */;
 			buildPhases = (
+				2FECF767546A52BF21397FEA /* Check Pods Manifest.lock */,
 				C7DD0B5B1C76B46D00361D17 /* Sources */,
 				C7DD0B5C1C76B46D00361D17 /* Frameworks */,
 				C7DD0B5D1C76B46D00361D17 /* Resources */,
+				74967014A002B1C5EF953B87 /* Embed Pods Frameworks */,
+				04FEA383B4310AF91085ED7D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -205,9 +257,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C7DD0B8D1C76B46E00361D17 /* Build configuration list for PBXNativeTarget "FlexTests" */;
 			buildPhases = (
+				89A588E90E8860A747E06EEB /* Check Pods Manifest.lock */,
 				C7DD0B721C76B46D00361D17 /* Sources */,
 				C7DD0B731C76B46D00361D17 /* Frameworks */,
 				C7DD0B741C76B46D00361D17 /* Resources */,
+				298C1E057480E1FEC373CDAB /* Embed Pods Frameworks */,
+				BF66948B5830D570713BD565 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -307,21 +362,117 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		04FEA383B4310AF91085ED7D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Flex/Pods-Flex-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		298C1E057480E1FEC373CDAB /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlexTests/Pods-FlexTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2FECF767546A52BF21397FEA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		74967014A002B1C5EF953B87 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Flex/Pods-Flex-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89A588E90E8860A747E06EEB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BF66948B5830D570713BD565 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlexTests/Pods-FlexTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C7DD0B5B1C76B46D00361D17 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D54652031D5FD5BA00C56922 /* WorkoutTemplate.swift in Sources */,
+				D51E0A7D1D5C4612008C4FDF /* CardioSetModel.swift in Sources */,
 				C7DD0B651C76B46D00361D17 /* ViewController.swift in Sources */,
 				C7DD0B631C76B46D00361D17 /* AppDelegate.swift in Sources */,
+				D5930CDE1D642D63007C8414 /* WorkoutStore.swift in Sources */,
 				C77D8F061C8940AE005F61C1 /* Date+StringComponents.swift in Sources */,
-				C77D8F131C8BFAA0005F61C1 /* Workout.swift in Sources */,
-				C77D8F0E1C8BFAA0005F61C1 /* Set+CoreDataProperties.swift in Sources */,
-				C77D8F111C8BFAA0005F61C1 /* Exercise.swift in Sources */,
-				C77D8F121C8BFAA0005F61C1 /* Workout+CoreDataProperties.swift in Sources */,
+				D51E0A7B1D5C45ED008C4FDF /* LiftingSetModel.swift in Sources */,
+				D51E0A771D5C44F8008C4FDF /* WorkoutModel.swift in Sources */,
 				C7DD0B6B1C76B46D00361D17 /* Flex.xcdatamodeld in Sources */,
-				C77D8F0F1C8BFAA0005F61C1 /* Set.swift in Sources */,
-				C77D8F101C8BFAA0005F61C1 /* Exercise+CoreDataProperties.swift in Sources */,
+				D54652061D612EEC00C56922 /* PlaceHolderShiftingTextFieldView.swift in Sources */,
+				D51E0A791D5C45D1008C4FDF /* ExerciseModel.swift in Sources */,
+				D5972C3E1D6BB2A0009A3514 /* WorkoutSnapshot.swift in Sources */,
+				D5972C401D6C0897009A3514 /* RealmExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +612,7 @@
 		};
 		C7DD0B8B1C76B46E00361D17 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58E4A28092EF882D7236CC78 /* Pods-Flex.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Flex/Info.plist;
@@ -472,6 +624,7 @@
 		};
 		C7DD0B8C1C76B46E00361D17 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A6257FB7FA664A1F4612748 /* Pods-Flex.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Flex/Info.plist;
@@ -483,6 +636,7 @@
 		};
 		C7DD0B8E1C76B46E00361D17 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 335B478606C19E474C0F34B3 /* Pods-FlexTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = FlexTests/Info.plist;
@@ -495,6 +649,7 @@
 		};
 		C7DD0B8F1C76B46E00361D17 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0135D2CAFED3495E5D4D00A /* Pods-FlexTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = FlexTests/Info.plist;
