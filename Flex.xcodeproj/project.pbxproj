@@ -12,7 +12,6 @@
 		C7DD0B631C76B46D00361D17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DD0B621C76B46D00361D17 /* AppDelegate.swift */; };
 		C7DD0B651C76B46D00361D17 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DD0B641C76B46D00361D17 /* ViewController.swift */; };
 		C7DD0B681C76B46D00361D17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7DD0B661C76B46D00361D17 /* Main.storyboard */; };
-		C7DD0B6B1C76B46D00361D17 /* Flex.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C7DD0B691C76B46D00361D17 /* Flex.xcdatamodeld */; };
 		C7DD0B6D1C76B46D00361D17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7DD0B6C1C76B46D00361D17 /* Assets.xcassets */; };
 		C7DD0B701C76B46D00361D17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7DD0B6E1C76B46D00361D17 /* LaunchScreen.storyboard */; };
 		C7DD0B7B1C76B46D00361D17 /* FlexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DD0B7A1C76B46D00361D17 /* FlexTests.swift */; };
@@ -21,8 +20,11 @@
 		D51E0A791D5C45D1008C4FDF /* ExerciseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51E0A781D5C45D1008C4FDF /* ExerciseModel.swift */; };
 		D51E0A7B1D5C45ED008C4FDF /* LiftingSetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51E0A7A1D5C45ED008C4FDF /* LiftingSetModel.swift */; };
 		D51E0A7D1D5C4612008C4FDF /* CardioSetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51E0A7C1D5C4612008C4FDF /* CardioSetModel.swift */; };
+		D5234B541D82645E000ECE21 /* BasicExerciseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5234B531D82645E000ECE21 /* BasicExerciseCell.swift */; };
+		D540F7D01D8F1123006CD42E /* WorkoutCreationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D540F7CF1D8F1123006CD42E /* WorkoutCreationViewController.swift */; };
 		D54652031D5FD5BA00C56922 /* WorkoutTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54652021D5FD5BA00C56922 /* WorkoutTemplate.swift */; };
 		D54652061D612EEC00C56922 /* PlaceHolderShiftingTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54652051D612EEC00C56922 /* PlaceHolderShiftingTextFieldView.swift */; };
+		D58177511D7DEC43002574CD /* PreviewExercisesCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58177501D7DEC43002574CD /* PreviewExercisesCollectionViewController.swift */; };
 		D5930CDE1D642D63007C8414 /* WorkoutStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5930CDD1D642D63007C8414 /* WorkoutStore.swift */; };
 		D5972C3E1D6BB2A0009A3514 /* WorkoutSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5972C3D1D6BB2A0009A3514 /* WorkoutSnapshot.swift */; };
 		D5972C401D6C0897009A3514 /* RealmExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5972C3F1D6C0897009A3514 /* RealmExtension.swift */; };
@@ -57,7 +59,6 @@
 		C7DD0B621C76B46D00361D17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C7DD0B641C76B46D00361D17 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C7DD0B671C76B46D00361D17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C7DD0B6A1C76B46D00361D17 /* Flex.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Flex.xcdatamodel; sourceTree = "<group>"; };
 		C7DD0B6C1C76B46D00361D17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7DD0B6F1C76B46D00361D17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C7DD0B711C76B46D00361D17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -72,8 +73,11 @@
 		D51E0A781D5C45D1008C4FDF /* ExerciseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseModel.swift; sourceTree = "<group>"; };
 		D51E0A7A1D5C45ED008C4FDF /* LiftingSetModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiftingSetModel.swift; sourceTree = "<group>"; };
 		D51E0A7C1D5C4612008C4FDF /* CardioSetModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardioSetModel.swift; sourceTree = "<group>"; };
+		D5234B531D82645E000ECE21 /* BasicExerciseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicExerciseCell.swift; sourceTree = "<group>"; };
+		D540F7CF1D8F1123006CD42E /* WorkoutCreationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutCreationViewController.swift; sourceTree = "<group>"; };
 		D54652021D5FD5BA00C56922 /* WorkoutTemplate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutTemplate.swift; sourceTree = "<group>"; };
 		D54652051D612EEC00C56922 /* PlaceHolderShiftingTextFieldView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceHolderShiftingTextFieldView.swift; sourceTree = "<group>"; };
+		D58177501D7DEC43002574CD /* PreviewExercisesCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewExercisesCollectionViewController.swift; sourceTree = "<group>"; };
 		D5930CDD1D642D63007C8414 /* WorkoutStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutStore.swift; sourceTree = "<group>"; };
 		D5972C3D1D6BB2A0009A3514 /* WorkoutSnapshot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutSnapshot.swift; sourceTree = "<group>"; };
 		D5972C3F1D6C0897009A3514 /* RealmExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmExtension.swift; sourceTree = "<group>"; };
@@ -159,8 +163,10 @@
 		C77D8F071C89475D005F61C1 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				D58177501D7DEC43002574CD /* PreviewExercisesCollectionViewController.swift */,
+				D540F7CF1D8F1123006CD42E /* WorkoutCreationViewController.swift */,
 			);
-			name = Controllers;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		C7DD0B561C76B46D00361D17 = {
@@ -199,7 +205,6 @@
 				C7DD0B6C1C76B46D00361D17 /* Assets.xcassets */,
 				C7DD0B6E1C76B46D00361D17 /* LaunchScreen.storyboard */,
 				C7DD0B711C76B46D00361D17 /* Info.plist */,
-				C7DD0B691C76B46D00361D17 /* Flex.xcdatamodeld */,
 			);
 			path = Flex;
 			sourceTree = "<group>";
@@ -226,6 +231,7 @@
 			isa = PBXGroup;
 			children = (
 				D54652051D612EEC00C56922 /* PlaceHolderShiftingTextFieldView.swift */,
+				D5234B531D82645E000ECE21 /* BasicExerciseCell.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -463,12 +469,14 @@
 				D54652031D5FD5BA00C56922 /* WorkoutTemplate.swift in Sources */,
 				D51E0A7D1D5C4612008C4FDF /* CardioSetModel.swift in Sources */,
 				C7DD0B651C76B46D00361D17 /* ViewController.swift in Sources */,
+				D5234B541D82645E000ECE21 /* BasicExerciseCell.swift in Sources */,
+				D58177511D7DEC43002574CD /* PreviewExercisesCollectionViewController.swift in Sources */,
+				D540F7D01D8F1123006CD42E /* WorkoutCreationViewController.swift in Sources */,
 				C7DD0B631C76B46D00361D17 /* AppDelegate.swift in Sources */,
 				D5930CDE1D642D63007C8414 /* WorkoutStore.swift in Sources */,
 				C77D8F061C8940AE005F61C1 /* Date+StringComponents.swift in Sources */,
 				D51E0A7B1D5C45ED008C4FDF /* LiftingSetModel.swift in Sources */,
 				D51E0A771D5C44F8008C4FDF /* WorkoutModel.swift in Sources */,
-				C7DD0B6B1C76B46D00361D17 /* Flex.xcdatamodeld in Sources */,
 				D54652061D612EEC00C56922 /* PlaceHolderShiftingTextFieldView.swift in Sources */,
 				D51E0A791D5C45D1008C4FDF /* ExerciseModel.swift in Sources */,
 				D5972C3E1D6BB2A0009A3514 /* WorkoutSnapshot.swift in Sources */,
@@ -724,19 +732,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		C7DD0B691C76B46D00361D17 /* Flex.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				C7DD0B6A1C76B46D00361D17 /* Flex.xcdatamodel */,
-			);
-			currentVersion = C7DD0B6A1C76B46D00361D17 /* Flex.xcdatamodel */;
-			path = Flex.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = C7DD0B571C76B46D00361D17 /* Project object */;
 }

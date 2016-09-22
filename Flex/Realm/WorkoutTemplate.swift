@@ -1,7 +1,7 @@
 import Foundation
 import RealmSwift
 
-public class WorkoutTemplate: Object {
+public class WorkoutTemplate: Object, WorkoutRepresentable {
     let exercises = List<ExerciseModel>()
     dynamic var name = ""
     dynamic private(set) var identifier = NSUUID().UUIDString
